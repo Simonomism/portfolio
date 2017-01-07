@@ -1,3 +1,50 @@
+///////////////////////
+POUR ENFIN TERMINER CE PORTFOLIO;
+par ordre de priorités
+\\\\\\\\\\\\\\\\\\\\\\\
+
+!!!! Responsive:
+A force de déplacer, supprimer, modifier telles et telles petites choses le responsive du thème n'a pas tenu. 
+Il subsiste tout de même certaines réactions de base mais à améliorer. 
+
+>>>
+
+  ---Page projets---
+  Les aperçus diminuent de taile à mesure que la fenêtre rétrécie mais passé un certain stade, tout passe sur une seule et unique colonne sans pour autant exploiter la largeur maximale possible pour chaque image. C'est dommage. Sur mobile il manque quelques pixels sur la marge droite. (http://simon-lepuissant.com/docs/screen.png)
+
+ 
+  ---Le menu--- 
+  Prend la forme d'une sidebar ignoble. Peut-on le faire tenir à droite drapeau à gauche tant que l'espacement avec mon nom reste raisonnable, puis le passer en dessous? (cf img précédente)
+
+  ---Paragraphes textes---
+  Voilà l'occasion de découvrir le pot aux roses. Pour organiser mon contenu sur chaque projet j'ai choisi de l'organiser sur 3 colonnes comme ceci: txt1 colonne gauche +/-50% de la largeur maximale, img colonne centrale largeur max, txt2 colonne droite avec float:right; +/- 50% de la largeur maximale. Alors cette méthode me semble totalement précaire et j'en suis désolé. J'ai donc exprimé les largeur en % mais voilà, sur mobile une colonne à 50% de la largeur de l'écran c'est pas terrible. Peux-tu adapté cela par rapport au support de lecture? Peut-être également réduire le corps typo légérement. On déplorera les horribles lézardes en text-align: justify;, je repasserais peut-être en :right;
+  Problème similaire sur la page INFOS.
+
+  ---Sliders---
+  Quand utilisation du mobile format paysage, la zone d'affichage du slider ne suit pas, aussi l'on ne voit que la moitié des images. J'utilise ici "easing slider" de Matthew Ruddy. Peut-être que la cause est extérieure au plugin en lui même. Peut-être est-ce parce que j'en ai trituré le code pour changer le curseur (en remplacant les deux fléches permettant la navigation par deux zones de 50% de l'image en modifiant la taille des deux images des dîtes flèches et en cassant le lien vers leur image, je sais pas si je suis très clair). Si pas de solution tant pis.
+
+---Organisation du site---
+En l'état actuel des choses il y a 3 pages: Home, projets, infos. 
+Je vais supprimer la homepage ou plutôt la remplacer par la page projet ainsi simon-lepuissant.com is the new simon-lepuissant.com/?page_id=51. Pour la page info, j'aimerais beaucoup quelle s'affiche comme un pop-up pleine page avec une croix pour fermer celle-ci. Je n'ai pas trouvé comment procéder. (http://simon-lepuissant.com/docs/expopup.jpg). Cela nous mettrait à 2 pages principales. Qu'en penses-tu? 
+Sinon je pensais que la homepage pouvait diffuser des images issues de mon instagram en mode "bordel organisé" en utilisant une API qu'ils doivent diffuser mais bon, c'est pas ma priorité à vrai dire.
+
+ !!!! Divers:
+ Subsiste cî et là des bugs de positionnement dont voici la liste:
+
+ ---Positionnement titre et menu---
+ Quelques pixels manquant à gauche de mon nom sur la page PROJETS pour être aligné avec les aperçus, quelques pixels à droite du menu également.
+ Quelques pixels manquant à droite du menu sur les différentes pages des projets.
+ Quelques pixels au dessus de la colonne PARCOURS/EXPERIENCES pour être aligné sur la première ligne du paragraphe de gauche. 
+
+ ---Typographie---
+J'ai longtemps modifié le site qui affichait correctement la Work Sans mais c'est repassé en Arial... Je ne sais pas pourquoi malheureusement. 
+
+---Chargement---
+D'une façon générale je crois que le navigateur charge beaucoup plus de chose que je n'en utilise sur le site, tu as parlé hier d'une solution que je te laisse le soin d'appliquer. 
+Preload slider? pourtant activé dans le plugin (Preload>"enable lazy loading")
+
+
+
 === Make ===
 
 Contributors: thethemefoundry
